@@ -11,6 +11,9 @@ modelfile = 'models/final_prediction.pickle'
 
 model = p.load(open(modelfile, 'rb'))
 
+@app.route('/')
+def main():
+    return ('Predict Wine API')
     
 @app.route('/api/', methods=['POST'])
 def makecalc():
