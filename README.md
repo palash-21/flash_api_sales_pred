@@ -1,5 +1,8 @@
-# flask-api
-In this repo I show how to simple create an API for your machine learning models in Python
+# Deploy machine learning model using flask api
 
-Blog Link: https://www.kdnuggets.com/2019/01/build-api-machine-learning-model-using-flask.html
+In this project, i have used flask api to deploy a machine learning model
+that predicts store sales
+
+
+
 
